@@ -6,8 +6,10 @@ export const metadata: Metadata = {
   description: "Full Stack Developer avec 4+ ans d'expérience. Spécialisée en PHP Symfony, React et Node.js.",
   keywords: ["Asma Sahraoui", "Symfony", "PHP Developer", "React", "Tunis"],
   authors: [{ name: "Asma Sahraoui" }],
+  verification: {
+    google: "68R0J9UGyjXwCKeXfK1IJlDbiaMa_RXvoiOZWcvPhaI", 
+  },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
